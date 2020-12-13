@@ -8,11 +8,14 @@
     "@types/mongodb": "^3.5.27",
     "@types/node": "^13.7.7",
     "@types/puppeteer": "^2.1.1",
+    "@types/rocksdb": "^3.0.0",
     "chrome-har": "^0.11.4",
     "fs-extra": "^8.1.0",
+    "level": "^6.0.1",
     "log4js": "^6.1.2",
     "mongodb": "^3.6.2",
-    "puppeteer": "^2.1.1"
+    "puppeteer": "^2.1.1",
+    "rocksdb": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
