@@ -5,19 +5,24 @@
   "main": "index.js",
   "dependencies": {
     "@types/core-js": "^2.5.3",
+    "@types/crypto-js": "^4.0.1",
+    "@types/electron": "^1.6.10",
+    "@types/elliptic": "^6.4.12",
     "@types/mongodb": "^3.5.27",
-    "@types/node": "^13.7.7",
     "@types/puppeteer": "^2.1.1",
     "@types/rocksdb": "^3.0.0",
+    "@types/uuid": "^8.3.0",
     "chrome-har": "^0.11.4",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.3",
     "fs-extra": "^8.1.0",
     "level": "^6.0.1",
     "log4js": "^6.1.2",
     "mongodb": "^3.6.2",
+    "pkg": "^4.4.9",
     "puppeteer": "^2.1.1",
     "rocksdb": "^4.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node .",
     "package": "pkg -t win ."

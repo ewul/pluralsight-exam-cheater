@@ -1,5 +1,5 @@
 import { VersionConfiguration } from './beans';
-import { getVersionConfiguration } from './mongodb';
+import { getVersionConfiguration } from './mongodb-client';
 
 const version: string = '1.1';
 

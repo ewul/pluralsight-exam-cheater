@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import { Role, Skill, SkillAssessment,Question } from './beans';
-import { updateAssessments, findAnswer } from './mongodb';
+import { updateAssessments, findAnswer } from './mongodb-client';
 import { versionCheck } from './version';
 
 const libraryUrl = 'https://app.pluralsight.com/library/'
